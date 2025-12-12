@@ -46,8 +46,9 @@ public class Account implements AccountService {
     public void printStatement() {
         System.out.println("DATE       || AMOUNT || BALANCE");
 
-        // Print oldest to newest (insertion order)
-        for (Transaction t : transactions) {
+        // Print transactions
+        for (int i = transactions.size() - 1; i >= 0; i--) {
+            Transaction t = transactions.get(i);
             System.out.println(
                     t.date.format(DATE_FORMAT) + " || " + t.amount + "    || " + t.balanceAfter
             );
