@@ -1,4 +1,4 @@
-### Banking Service
+###           Banking Service
 
 ## Requirements
 - Java 17 or newer (`java -version` to check)
