@@ -63,7 +63,7 @@ public class Account implements AccountService {
         // Get the date of the last transaction
         LocalDate lastTransactionDate = transactions.get(transactions.size() - 1).date;
         
-        // New transaction date must be on or after the last transaction date
+        // New transaction date must be on or after the  last transaction date
         return !newDate.isBefore(lastTransactionDate);
     }
 
