@@ -54,4 +54,10 @@ exit
 - Amount must be a positive integer
 - Transactions must be in chronological order (cannot add a transaction with a date earlier than existing transactions)
 
+## Example Session
+
+Here's an example of running the program:
+
+![Example Terminal Session](example.png)
+
 
