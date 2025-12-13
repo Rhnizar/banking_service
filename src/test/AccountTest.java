@@ -5,8 +5,8 @@ public class AccountTest {
     public static void main(String[] args) throws Exception {
         Account account = new Account();
 
-        account.deposit(100, "2024-01-01");
-        account.withdraw(40, "2024-01-02");
+        account.deposit(100, "01-01-2024");
+        account.withdraw(40, "02-01-2024");
 
         int balance = getBalance(account);
         List<Transaction> txs = getTransactions(account);
