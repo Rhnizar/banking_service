@@ -58,6 +58,6 @@ exit
 
 Here's an example of running the program:
 
-![Example Terminal Session](example.png)
+![Example Terminal Session](images/example.png)
 
 
